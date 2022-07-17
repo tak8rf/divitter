@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<div id="header" class="sticky-top">
+<h1>TWEET</h1>
+</div>
+<p>
+  <strong>Content:</strong>
+  <%= @blog.content %>
+</p>
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Back', blogs_path %>
+
+<div id="footer" class="fixed-bottom">
+<p>DIVITTER</p>
+</div>
