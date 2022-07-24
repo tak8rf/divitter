@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Divitter</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <div id="header" class="sticky-top">
+<h1>DIVITTER</h1>
+</div>
+<%= yield %>
+<div id="footer" class="fixed-bottom">
+<p>DIVITTER</p>
+</div>
+  </body>
+</html>
